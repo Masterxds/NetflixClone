@@ -1,0 +1,20 @@
+$('.owl-carousel').owlCarousel({
+    loop:false,
+    dots:false,
+    touchDrag:false,
+    mouseDrag:false,
+    margin:10,
+    nav:true,
+    navText: ["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:5
+        },
+        1000:{
+            items:8
+        }
+    }
+})

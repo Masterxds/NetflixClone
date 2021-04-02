@@ -1,0 +1,43 @@
+
+.filme-principal .container{
+    margin-left: 0px;
+    width: 40%;
+    margin-top: 5%;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)100%);
+    padding: 30px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+    margin-bottom: 75px;
+}
+
+.item{
+    cursor:pointer;
+}
+
+.owl-prev, .owl-next {
+    outline: none;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 108%;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
+    border-radius: 50%;
+}
+.owl-prev { left: 900px; }
+.owl-next { right: 900px; }
+.owl-prev i, .owl-next i {transform : scale(4,4); color: rgb(255, 255, 255);}
+
+.owl-prev i:hover, .owl-next i:hover{
+    color: rgb(0, 128, 11);
+}
